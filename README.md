@@ -80,9 +80,36 @@ The project contains 21 business questions, covering:
 ``` text
 Netflix-MySQL-Analysis/
 │
+├── Data
+│    ├── 01_raw
+│    │      ├── titles.csv
+│    │      └── credits.csv
+│    └── 02_cleanned
+│           ├── titles.csv
+│           └── credits.csv
+├── SQL Query files
+│           ├── Top 10 movies by IMDb score.csv
+│           ├── Top 10 shows by IMDb score.csv
+│           ├── Bottom 10 movies by IMDb score.csv
+│           ├── Bottom 10 shows by IMDb score.csv
+│           ├── Average IMDb and TMDB scores by content type.csv
+│           ├── Average IMDb and TMDB scores by content type.csv
+│           ├── Five most common movie age certifications.csv
+│           ├── Top 20 actors by number of movie/show credits.csv
+│           ├── Top 20 directors by number of movie/show credits.csv
+│           ├── Movie titles and directors for releases from 2010 onward.csv
+│           ├── Shows with the most seasons.csv
+│           ├── Genres with the most movies.csv
+│           ├── Genres with the most shows.csv
+│           ├── Directors and titles meeting IMDb and TMDB popularity thresholds.csv
+│           ├── Number of titles released in each year.csv
+│           ├── Actors appearing in highly rated titles.csv
+│           ├── Actors associated with the same character in multiple titles.csv
+│           ├── Three most common movie genres.csv
+│           ├── Average runtime for movies and shows.csv
+│           └── Average IMDb score for leading actors/actresses
+.csv
 ├── Netflix MySQL Analysis.sql
-├── titles.csv
-├── credits.csv
 └── README.md
 ```
 
