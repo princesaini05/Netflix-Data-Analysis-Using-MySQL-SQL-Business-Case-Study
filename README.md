@@ -1,4 +1,4 @@
-# Netflix MySQL Analysis
+# Netflix Data Analysis Using MySQL | SQL Business Case Study
 
 ## Project Overview
 
