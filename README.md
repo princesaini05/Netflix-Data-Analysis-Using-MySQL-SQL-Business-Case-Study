@@ -25,8 +25,6 @@ The analysis is organized as a collection of SQL queries in
 
 -   **MySQL** --- SQL querying and analysis
 -   **MySQL Workbench** (optional) --- running and reviewing SQL queries
--   **CSV datasets** --- source data for the `titles` and `credits`
-    tables
 
 ## Dataset
 
@@ -77,21 +75,6 @@ The project contains 21 business questions, covering:
 20. Average runtime for movies and shows
 21. Average IMDb score for leading actors/actresses
 
-## How to Run the Project
-
-1.  Install **MySQL Server** and, optionally, **MySQL Workbench**.
-2.  Create the `titles` and `credits` tables and import the
-    corresponding CSV data.
-3.  Open `Netflix MySQL Analysis.sql` in MySQL Workbench or another
-    MySQL client.
-4.  Execute the script. It creates and selects the `netflix_analysis`
-    database.
-5.  Review the result set returned by each business query.
-
-**Important:** The script creates the database but does not define the
-table schemas or import the CSV files. Those setup steps must be
-completed before running the analysis queries.
-
 ## Repository Structure
 
 ``` text
@@ -102,10 +85,6 @@ Netflix-MySQL-Analysis/
 ├── credits.csv
 └── README.md
 ```
-
-The CSV files are shown above as the expected dataset files; include
-them in the repository if you intend to distribute the data with the
-project.
 
 ## Key SQL Concepts Practiced
 
